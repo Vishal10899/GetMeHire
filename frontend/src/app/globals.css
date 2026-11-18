@@ -1,0 +1,172 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background-color: var(--background);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Inter", "Helvetica Neue", Arial, sans-serif;
+  max-width: 100vw;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Custom sleek scrollbar for smooth visual scrolling */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Hide scrollbar for clean horizontal pill rails */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Keyframes for subtle recruitment UI animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulseSubtle {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-pulse-subtle {
+  animation: pulseSubtle 2.5s infinite ease-in-out;
+}
+
+/* Safe prose styling for sanitized job description HTML */
+.job-prose h1, .job-prose h2, .job-prose h3, .job-prose h4 {
+  font-weight: 700;
+  color: #0f172a;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.35;
+}
+.job-prose h1 { font-size: 1.25rem; }
+.job-prose h2 { font-size: 1.125rem; }
+.job-prose h3 { font-size: 1rem; }
+.job-prose h4 { font-size: 0.875rem; }
+.job-prose p {
+  margin-bottom: 0.75rem;
+  line-height: 1.65;
+}
+.job-prose ul, .job-prose ol {
+  margin-top: 0.5rem;
+  margin-bottom: 0.875rem;
+  padding-left: 1.25rem;
+}
+.job-prose ul { list-style-type: disc; }
+.job-prose ol { list-style-type: decimal; }
+.job-prose li {
+  margin-bottom: 0.375rem;
+  line-height: 1.6;
+}
+.job-prose strong, .job-prose b {
+  font-weight: 600;
+  color: #1e293b;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Print-friendly styles for clean physical print & PDF export */
+@media print {
+  header,
+  footer,
+  nav,
+  .no-print,
+  button,
+  [role="dialog"] {
+    display: none !important;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11pt !important;
+    line-height: 1.4 !important;
+  }
+
+  main {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+  }
+
+  a {
+    text-decoration: underline !important;
+    color: #000000 !important;
+  }
+
+  .border,
+  .border-slate-200 {
+    border-color: #cccccc !important;
+  }
+
+  .shadow-sm,
+  .shadow-md,
+  .shadow-lg,
+  .shadow-xs {
+    box-shadow: none !important;
+  }
+}
