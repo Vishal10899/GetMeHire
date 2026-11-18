@@ -1,0 +1,82 @@
+[
+  {
+    "test": "1. Database & Backend Health",
+    "status": "PASS",
+    "details": "Status: 200, Body: {\"status\":\"HEALTHY\",\"database\":\"CONNECTED\",\"version\":\"2.0.0\"}"
+  },
+  {
+    "test": "2. Homepage HTTP 200",
+    "status": "PASS",
+    "details": "Status: 200, Length: 41583 bytes"
+  },
+  {
+    "test": "3. Find Jobs UI Page",
+    "status": "PASS",
+    "details": "Status: 200, Content-Type: text/html; charset=utf-8"
+  },
+  {
+    "test": "4. Global Job Search API",
+    "status": "PASS",
+    "details": "Total matching: 7259, Sample: #26697 'Software Development Engineer, Amazon International Seller Services' at Unknown"
+  },
+  {
+    "test": "5. Fresher Search API",
+    "status": "PASS",
+    "details": "Total TRUE_FRESHER jobs: 1838, returned: 5"
+  },
+  {
+    "test": "6. Entry-Level Filters API",
+    "status": "PASS",
+    "details": "Total ENTRY level jobs: 8, returned: 5"
+  },
+  {
+    "test": "7. Job Detail Pages (API & UI)",
+    "status": "PASS",
+    "details": "API Status: 200, UI Status: 200"
+  },
+  {
+    "test": "8. Employer Application Links & Provenance",
+    "status": "PASS",
+    "details": "Status: 200, URL: https://www.amazon.jobs/en/jobs/10594150/software-developmen..."
+  },
+  {
+    "test": "9. Authentication & Authorization (Register, Candidate & Admin Login)",
+    "status": "PASS",
+    "details": "Reg: 201, Login: 200, Admin: 200"
+  },
+  {
+    "test": "10. Resume Upload & Validation",
+    "status": "PASS",
+    "details": "Status: 200, Filename: smoke_alex_chen.pdf"
+  },
+  {
+    "test": "11. Resume Studio Analysis",
+    "status": "PASS",
+    "details": "Status: 200, Overall Score: 59%"
+  },
+  {
+    "test": "12. Resume JD Matching",
+    "status": "PASS",
+    "details": "Status: 200, Match Score: 91%, Matched Skills: 0"
+  },
+  {
+    "test": "13. Resume PDF Export",
+    "status": "PASS",
+    "details": "Status: 200, Size: 2333 bytes, Header: b'%PDF-'"
+  },
+  {
+    "test": "14. Resume DOCX Export",
+    "status": "PASS",
+    "details": "Status: 200, Size: 35690 bytes, Header: b'PK'"
+  },
+  {
+    "test": "15. Admin Dashboard Telemetry & Sources",
+    "status": "PASS",
+    "details": "Sources: 226, Health DB: True, Runs retrieved: 5"
+  },
+  {
+    "test": "16. Standalone Worker & Advisory Lock",
+    "status": "PASS",
+    "details": "Lock Acquired: True, Due Sources: 0, Executed: 0"
+  }
+]
