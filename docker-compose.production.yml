@@ -1,0 +1,119 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:17-alpine
+    container_name: getmehire_db
+    restart: always
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-getmehire_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-change_to_strong_db_password_in_env}
+      POSTGRES_DB: ${POSTGRES_DB:-job_discovery}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./backups:/backups
+    ports:
+      - "127.0.0.1:5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-getmehire_user} -d ${POSTGRES_DB:-job_discovery}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - getmehire_net
+
+  redis:
+    image: redis:7-alpine
+    container_name: getmehire_redis
+    restart: always
+    ports:
+      - "127.0.0.1:6379:6379"
+    command: redis-server --appendonly yes --maxmemory 256mb --maxmemory-policy allkeys-lru
+    volumes:
+      - redis_data:/data
+    networks:
+      - getmehire_net
+
+  api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: getmehire_api
+    restart: always
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    environment:
+      ENVIRONMENT: production
+      PROJECT_NAME: "GetMeHire"
+      SECRET_KEY: ${SECRET_KEY}
+      POSTGRES_SERVER: db
+      POSTGRES_PORT: 5432
+      POSTGRES_USER: ${POSTGRES_USER:-getmehire_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB:-job_discovery}
+      BACKEND_CORS_ORIGINS: ${BACKEND_CORS_ORIGINS:-["https://getmehire.com", "http://localhost:3000"]}
+      ENABLE_BACKGROUND_SCHEDULER: "false" # Disabled in API; handled by dedicated worker container
+      STORAGE_BACKEND: ${STORAGE_BACKEND:-local}
+      UPLOAD_DIR: /app/storage/resumes
+    volumes:
+      - resume_storage:/app/storage/resumes
+    ports:
+      - "8000:8000"
+    networks:
+      - getmehire_net
+
+  worker:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: getmehire_worker
+    restart: always
+    depends_on:
+      db:
+        condition: service_healthy
+    command: ["python", "-m", "app.worker", "--interval", "300", "--max-sources", "10"]
+    environment:
+      ENVIRONMENT: production
+      PROJECT_NAME: "GetMeHire"
+      SECRET_KEY: ${SECRET_KEY}
+      POSTGRES_SERVER: db
+      POSTGRES_PORT: 5432
+      POSTGRES_USER: ${POSTGRES_USER:-getmehire_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB:-job_discovery}
+      ENABLE_BACKGROUND_SCHEDULER: "true"
+      SCHEDULER_INTERVAL_SECONDS: 300
+    volumes:
+      - worker_logs:/app/storage
+    networks:
+      - getmehire_net
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: getmehire_frontend
+    restart: always
+    depends_on:
+      - api
+    environment:
+      NODE_ENV: production
+      NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-http://localhost:8000/api/v1}
+      INTERNAL_API_URL: http://api:8000/api/v1
+    ports:
+      - "3000:3000"
+    networks:
+      - getmehire_net
+
+volumes:
+  postgres_data:
+  redis_data:
+  resume_storage:
+  worker_logs:
+
+networks:
+  getmehire_net:
+    driver: bridge
