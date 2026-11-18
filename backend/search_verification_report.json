@@ -1,0 +1,900 @@
+{
+  "Query 1: AI Engineer + India": {
+    "parameters": {
+      "keyword": "AI Engineer",
+      "location": "India"
+    },
+    "total_results": 60,
+    "sample_size_audited": 10,
+    "unique_employers_in_sample": [
+      "Elastic",
+      "Twilio",
+      "Pure Storage",
+      "Amazon",
+      "OpenAI"
+    ],
+    "sample_titles": [
+      "IT Risk & AI Engineer, IT Risk",
+      "Sr AI Engineer, Agentic Systems",
+      "Senior Applied AI Engineer",
+      "Agentic AI Engineer",
+      "Staff AI Engineer, Agentic AI for Finance"
+    ],
+    "sample_locations": [
+      "Bengaluru, India",
+      "Bengaluru, India",
+      "Bengaluru, India",
+      "Bengaluru, India",
+      "Bengaluru, India"
+    ],
+    "sample_work_arrangements": [
+      "REMOTE",
+      "ONSITE"
+    ],
+    "sample_employment_types": [
+      "FULL_TIME"
+    ],
+    "sources_represented": [
+      "Pure Storage Official Greenhouse Board",
+      "Twilio Greenhouse Board",
+      "OpenAI Ashby Board",
+      "Elastic Greenhouse Board",
+      "Rubrik Greenhouse",
+      "Amazon Jobs Official Feed"
+    ],
+    "sample_records": [
+      {
+        "id": 14337,
+        "title": "IT Risk & AI Engineer, IT Risk",
+        "company": "Amazon",
+        "location": "Bengaluru",
+        "city": "Bengaluru",
+        "country": "India",
+        "country_code": "IN",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Amazon Jobs Official Feed",
+        "application_url": "https://www.amazon.jobs/en/jobs/10595131/it-risk-ai-engineer-it-risk",
+        "profession": "DATA_AI"
+      },
+      {
+        "id": 13617,
+        "title": "Sr AI Engineer, Agentic Systems",
+        "company": "Rubrik",
+        "location": "Bengaluru, India",
+        "city": "Bengaluru",
+        "country": "India",
+        "country_code": "IN",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Rubrik Greenhouse",
+        "application_url": "https://www.rubrik.com/company/careers/departments/job.8318044?gh_jid=8318044",
+        "profession": "ENGINEERING"
+      },
+      {
+        "id": 13572,
+        "title": "Senior Applied AI Engineer",
+        "company": "Rubrik",
+        "location": "Bangalore",
+        "city": "Bengaluru",
+        "country": "India",
+        "country_code": "IN",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Rubrik Greenhouse",
+        "application_url": "https://www.rubrik.com/company/careers/departments/job.8273717?gh_jid=8273717",
+        "profession": "DATA_AI"
+      },
+      {
+        "id": 9314,
+        "title": "Agentic AI Engineer",
+        "company": "Elastic",
+        "location": "Bangalore, India",
+        "city": "Bengaluru",
+        "country": "India",
+        "country_code": "IN",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Elastic Greenhouse Board",
+        "application_url": "https://jobs.elastic.co/jobs?gh_jid=8247206&gh_jid=8247206",
+        "profession": "ENGINEERING"
+      },
+      {
+        "id": 16837,
+        "title": "Staff AI Engineer, Agentic AI for Finance",
+        "company": "Pure Storage",
+        "location": "Bangalore, India",
+        "city": "Bengaluru",
+        "country": "India",
+        "country_code": "IN",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Pure Storage Official Greenhouse Board",
+        "application_url": "https://job-boards.greenhouse.io/purestorage/jobs/8330271",
+        "profession": "FINANCE_ACCOUNTING"
+      }
+    ]
+  },
+  "Query 2: AI Engineer + worldwide": {
+    "parameters": {
+      "keyword": "AI Engineer",
+      "location": null
+    },
+    "total_results": 562,
+    "sample_size_audited": 10,
+    "unique_employers_in_sample": [
+      "InMobi",
+      "Stripe",
+      "MongoDB",
+      "Amazon",
+      "OpenAI"
+    ],
+    "sample_titles": [
+      "AI Engineer",
+      "AI Engineer",
+      "Backend Engineer (Ruby), AI Engineering: AI Catalog",
+      "IT Risk & AI Engineer, IT Risk",
+      "Partner Applied AI Engineer, AWS"
+    ],
+    "sample_locations": [
+      "San Mateo, United States",
+      "Chicago, United States",
+      "United Kingdom",
+      "Bengaluru, India",
+      "San Francisco, United States"
+    ],
+    "sample_work_arrangements": [
+      "ONSITE"
+    ],
+    "sample_employment_types": [
+      "FULL_TIME"
+    ],
+    "sources_represented": [
+      "InMobi Greenhouse Board",
+      "MongoDB Official Greenhouse Board",
+      "Stripe Greenhouse ATS",
+      "OpenAI Ashby Board",
+      "Rubrik Greenhouse",
+      "GitLab Greenhouse Board",
+      "Amazon Jobs Official Feed"
+    ],
+    "sample_records": [
+      {
+        "id": 7251,
+        "title": "AI Engineer",
+        "company": "InMobi",
+        "location": "San Mateo, CA",
+        "city": "San Mateo",
+        "country": "United States",
+        "country_code": "US",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "InMobi Greenhouse Board",
+        "application_url": "https://job-boards.greenhouse.io/inmobi/jobs/8113314",
+        "profession": "ENGINEERING"
+      },
+      {
+        "id": 6519,
+        "title": "AI Engineer",
+        "company": "Stripe",
+        "location": "Chicago",
+        "city": "Chicago",
+        "country": "United States",
+        "country_code": "US",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Stripe Greenhouse ATS",
+        "application_url": "https://stripe.com/jobs/search?gh_jid=8144196",
+        "profession": "ENGINEERING"
+      },
+      {
+        "id": 17961,
+        "title": "Backend Engineer (Ruby), AI Engineering: AI Catalog",
+        "company": "GitLab",
+        "location": "Remote, United Kingdom",
+        "city": null,
+        "country": "United Kingdom",
+        "country_code": "GB",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "GitLab Greenhouse Board",
+        "application_url": "https://job-boards.greenhouse.io/gitlab/jobs/8940898002",
+        "profession": "ENGINEERING"
+      },
+      {
+        "id": 14337,
+        "title": "IT Risk & AI Engineer, IT Risk",
+        "company": "Amazon",
+        "location": "Bengaluru",
+        "city": "Bengaluru",
+        "country": "India",
+        "country_code": "IN",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Amazon Jobs Official Feed",
+        "application_url": "https://www.amazon.jobs/en/jobs/10595131/it-risk-ai-engineer-it-risk",
+        "profession": "DATA_AI"
+      },
+      {
+        "id": 10539,
+        "title": "Partner Applied AI Engineer, AWS",
+        "company": "OpenAI",
+        "location": "San Francisco",
+        "city": "San Francisco",
+        "country": "United States",
+        "country_code": "US",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "OpenAI Ashby Board",
+        "application_url": "https://jobs.ashbyhq.com/openai/9635775d-18fa-47bb-9ede-9a4137618de0",
+        "profession": "DATA_AI"
+      }
+    ]
+  },
+  "Query 3: Web Developer + London": {
+    "parameters": {
+      "keyword": "Web Developer",
+      "location": "London"
+    },
+    "total_results": 164,
+    "sample_size_audited": 10,
+    "unique_employers_in_sample": [
+      "Anthropic",
+      "Anduril Industries",
+      "Ripple",
+      "Wise",
+      "Trustpilot"
+    ],
+    "sample_titles": [
+      "Senior Software Engineer II - Wise for Banks",
+      "Senior Software Engineer II - Account Integrity",
+      "Senior Software Engineer, Modelling & Simulation - Advanced Capabilities",
+      "2027 Software Engineer Intern",
+      "Staff+ Software Engineer, Deployment"
+    ],
+    "sample_locations": [
+      "London, United Kingdom",
+      "London, United Kingdom",
+      "United Kingdom",
+      "London, United Kingdom",
+      "London, United Kingdom"
+    ],
+    "sample_work_arrangements": [
+      "ONSITE"
+    ],
+    "sample_employment_types": [
+      "FULL_TIME"
+    ],
+    "sources_represented": [
+      "Trustpilot Greenhouse",
+      "Anduril Industries Greenhouse Board",
+      "Wise Smartrecruiters",
+      "Anthropic Greenhouse ATS",
+      "Ripple Greenhouse Board"
+    ],
+    "sample_records": [
+      {
+        "id": 18869,
+        "title": "Senior Software Engineer II - Wise for Banks",
+        "company": "Wise",
+        "location": "London, , United Kingdom",
+        "city": "London",
+        "country": "United Kingdom",
+        "country_code": "GB",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Wise Smartrecruiters",
+        "application_url": "https://jobs.smartrecruiters.com/wise/744000162085909",
+        "profession": "ENGINEERING"
+      },
+      {
+        "id": 18881,
+        "title": "Senior Software Engineer II - Account Integrity",
+        "company": "Wise",
+        "location": "London, , United Kingdom",
+        "city": "London",
+        "country": "United Kingdom",
+        "country_code": "GB",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Wise Smartrecruiters",
+        "application_url": "https://jobs.smartrecruiters.com/wise/744000162049114",
+        "profession": "ENGINEERING"
+      },
+      {
+        "id": 23855,
+        "title": "Senior Software Engineer, Modelling & Simulation - Advanced Capabilities",
+        "company": "Anduril Industries",
+        "location": "Abu Dhabi, United Arab Emirates; London, England, United Kingdom",
+        "city": null,
+        "country": "United Kingdom",
+        "country_code": "GB",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Anduril Industries Greenhouse Board",
+        "application_url": "https://boards.greenhouse.io/andurilindustries/jobs/5206672007?gh_jid=5206672007",
+        "profession": "ENGINEERING"
+      },
+      {
+        "id": 22048,
+        "title": "2027 Software Engineer Intern",
+        "company": "Anduril Industries",
+        "location": "London, England, United Kingdom",
+        "city": "London",
+        "country": "United Kingdom",
+        "country_code": "GB",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Anduril Industries Greenhouse Board",
+        "application_url": "https://boards.greenhouse.io/andurilindustries/jobs/5255902007?gh_jid=5255902007",
+        "profession": "ENGINEERING"
+      },
+      {
+        "id": 12925,
+        "title": "Staff+ Software Engineer, Deployment",
+        "company": "Anthropic",
+        "location": "London, UK",
+        "city": "London",
+        "country": "United Kingdom",
+        "country_code": "GB",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Anthropic Greenhouse ATS",
+        "application_url": "https://job-boards.greenhouse.io/anthropic/jobs/5484144008",
+        "profession": "ENGINEERING"
+      }
+    ]
+  },
+  "Query 4: Senior Surgeon + worldwide": {
+    "parameters": {
+      "keyword": "Senior Surgeon",
+      "location": null
+    },
+    "total_results": 270,
+    "sample_size_audited": 10,
+    "unique_employers_in_sample": [
+      "Oscar Health",
+      "One Medical"
+    ],
+    "sample_titles": [
+      "Physician (Bilingual Spanish) - Virtual Urgent Care (Nights - 7 days on & 7 days off)",
+      "Bilingual (Spanish) Physician Assistant - Virtual Health Assessment (GA License Required)",
+      "Bilingual (Spanish) Physician Assistant - Virtual Health Assessment",
+      "Family Nurse Practitioner or Physician Assistant",
+      "Virtual Primary Care Physician - NY, DC or CA Licensed"
+    ],
+    "sample_locations": [
+      "Remote",
+      "Remote",
+      "Remote",
+      "New York, United States",
+      "Houston, United States"
+    ],
+    "sample_work_arrangements": [
+      "ONSITE"
+    ],
+    "sample_employment_types": [
+      "FULL_TIME"
+    ],
+    "sources_represented": [
+      "One Medical Greenhouse",
+      "Oscar Health Greenhouse"
+    ],
+    "sample_records": [
+      {
+        "id": 18861,
+        "title": "Physician (Bilingual Spanish) - Virtual Urgent Care (Nights - 7 days on & 7 days off)",
+        "company": "Oscar Health",
+        "location": "Remote",
+        "city": null,
+        "country": null,
+        "country_code": null,
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Oscar Health Greenhouse",
+        "application_url": "https://oscarhealth.com/careers/jobs?gh_jid=8396654",
+        "profession": "HEALTHCARE_MEDICAL"
+      },
+      {
+        "id": 18857,
+        "title": "Bilingual (Spanish) Physician Assistant - Virtual Health Assessment (GA License Required)",
+        "company": "Oscar Health",
+        "location": "Remote",
+        "city": null,
+        "country": null,
+        "country_code": null,
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Oscar Health Greenhouse",
+        "application_url": "https://oscarhealth.com/careers/jobs?gh_jid=8396540",
+        "profession": "HEALTHCARE_MEDICAL"
+      },
+      {
+        "id": 18856,
+        "title": "Bilingual (Spanish) Physician Assistant - Virtual Health Assessment",
+        "company": "Oscar Health",
+        "location": "Remote",
+        "city": null,
+        "country": null,
+        "country_code": null,
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Oscar Health Greenhouse",
+        "application_url": "https://oscarhealth.com/careers/jobs?gh_jid=8396534",
+        "profession": "HEALTHCARE_MEDICAL"
+      },
+      {
+        "id": 18455,
+        "title": "Family Nurse Practitioner or Physician Assistant",
+        "company": "One Medical",
+        "location": "New York, NY",
+        "city": "New York",
+        "country": "United States",
+        "country_code": "US",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "One Medical Greenhouse",
+        "application_url": "http://www.onemedical.com/careers/all-departments/8325385?gh_jid=8325385",
+        "profession": "HEALTHCARE_MEDICAL"
+      },
+      {
+        "id": 17955,
+        "title": "Virtual Primary Care Physician - NY, DC or CA Licensed",
+        "company": "One Medical",
+        "location": "Houston, TX",
+        "city": "Houston",
+        "country": "United States",
+        "country_code": "US",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "One Medical Greenhouse",
+        "application_url": "http://www.onemedical.com/careers/all-departments/8198259?gh_jid=8198259",
+        "profession": "HEALTHCARE_MEDICAL"
+      }
+    ]
+  },
+  "Query 5: Data Analyst + Canada": {
+    "parameters": {
+      "keyword": "Data Analyst",
+      "location": "Canada"
+    },
+    "total_results": 16,
+    "sample_size_audited": 10,
+    "unique_employers_in_sample": [
+      "GitLab",
+      "Reddit",
+      "Stripe"
+    ],
+    "sample_titles": [
+      "Data Analyst",
+      "Data Analyst, Intern",
+      "Staff Data Scientist - Ads Measurement, Signals, Privacy",
+      "Staff Data Scientist, Marketing",
+      "Staff Data Scientist, Ads"
+    ],
+    "sample_locations": [
+      "Canada",
+      "Toronto, Canada",
+      "Canada",
+      "Canada",
+      "Canada"
+    ],
+    "sample_work_arrangements": [
+      "REMOTE",
+      "ONSITE"
+    ],
+    "sample_employment_types": [
+      "INTERNSHIP",
+      "FULL_TIME"
+    ],
+    "sources_represented": [
+      "Stripe Greenhouse ATS",
+      "GitLab Greenhouse Board",
+      "Reddit Greenhouse"
+    ],
+    "sample_records": [
+      {
+        "id": 3509,
+        "title": "Data Analyst",
+        "company": "Stripe",
+        "location": "Canada",
+        "city": null,
+        "country": "Canada",
+        "country_code": "CA",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Stripe Greenhouse ATS",
+        "application_url": "https://stripe.com/jobs/search?gh_jid=5416444",
+        "profession": "DATA_AI"
+      },
+      {
+        "id": 3511,
+        "title": "Data Analyst, Intern",
+        "company": "Stripe",
+        "location": "Toronto",
+        "city": "Toronto",
+        "country": "Canada",
+        "country_code": "CA",
+        "work_arrangement": "ONSITE",
+        "employment_type": "INTERNSHIP",
+        "source": "Stripe Greenhouse ATS",
+        "application_url": "https://stripe.com/jobs/search?gh_jid=8194287",
+        "profession": "DATA_AI"
+      },
+      {
+        "id": 13887,
+        "title": "Staff Data Scientist - Ads Measurement, Signals, Privacy",
+        "company": "Reddit",
+        "location": "Remote - British Columbia, Canada",
+        "city": null,
+        "country": "Canada",
+        "country_code": "CA",
+        "work_arrangement": "REMOTE",
+        "employment_type": "FULL_TIME",
+        "source": "Reddit Greenhouse",
+        "application_url": "https://job-boards.greenhouse.io/reddit/jobs/8103609",
+        "profession": "DATA_AI"
+      },
+      {
+        "id": 13890,
+        "title": "Staff Data Scientist, Marketing",
+        "company": "Reddit",
+        "location": "Remote - Ontario, Canada",
+        "city": null,
+        "country": "Canada",
+        "country_code": "CA",
+        "work_arrangement": "REMOTE",
+        "employment_type": "FULL_TIME",
+        "source": "Reddit Greenhouse",
+        "application_url": "https://job-boards.greenhouse.io/reddit/jobs/7931000",
+        "profession": "DATA_AI"
+      },
+      {
+        "id": 13886,
+        "title": "Staff Data Scientist, Ads",
+        "company": "Reddit",
+        "location": "Remote - Ontario, Canada",
+        "city": null,
+        "country": "Canada",
+        "country_code": "CA",
+        "work_arrangement": "REMOTE",
+        "employment_type": "FULL_TIME",
+        "source": "Reddit Greenhouse",
+        "application_url": "https://job-boards.greenhouse.io/reddit/jobs/7721851",
+        "profession": "DATA_AI"
+      }
+    ]
+  },
+  "Query 6: Software Engineer + Germany": {
+    "parameters": {
+      "keyword": "Software Engineer",
+      "location": "Germany"
+    },
+    "total_results": 28,
+    "sample_size_audited": 10,
+    "unique_employers_in_sample": [
+      "Mozilla",
+      "Planet Labs",
+      "Delivery Hero"
+    ],
+    "sample_titles": [
+      "Software Engineer",
+      "Software Engineer",
+      "Senior Software Engineer, OS Integration",
+      "Senior Software Engineer, Privacy",
+      "Software Engineer II , Android-(Vendor)"
+    ],
+    "sample_locations": [
+      "Berlin, Germany",
+      "Berlin, Germany",
+      "Germany",
+      "Germany",
+      "Berlin, Germany"
+    ],
+    "sample_work_arrangements": [
+      "REMOTE",
+      "ONSITE",
+      "HYBRID"
+    ],
+    "sample_employment_types": [
+      "FULL_TIME"
+    ],
+    "sources_represented": [
+      "Planet Labs Greenhouse Board",
+      "Delivery Hero Smartrecruiters Board",
+      "Mozilla Greenhouse Board"
+    ],
+    "sample_records": [
+      {
+        "id": 11594,
+        "title": "Software Engineer",
+        "company": "Planet Labs",
+        "location": "Berlin, Germany",
+        "city": "Berlin",
+        "country": "Germany",
+        "country_code": "DE",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Planet Labs Greenhouse Board",
+        "application_url": "https://job-boards.greenhouse.io/planetlabs/jobs/8337813",
+        "profession": "ENGINEERING"
+      },
+      {
+        "id": 11598,
+        "title": "Software Engineer",
+        "company": "Planet Labs",
+        "location": "Berlin, Germany",
+        "city": "Berlin",
+        "country": "Germany",
+        "country_code": "DE",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Planet Labs Greenhouse Board",
+        "application_url": "https://job-boards.greenhouse.io/planetlabs/jobs/8190766",
+        "profession": "ENGINEERING"
+      },
+      {
+        "id": 7877,
+        "title": "Senior Software Engineer, OS Integration",
+        "company": "Mozilla",
+        "location": "Remote Germany",
+        "city": null,
+        "country": "Germany",
+        "country_code": "DE",
+        "work_arrangement": "REMOTE",
+        "employment_type": "FULL_TIME",
+        "source": "Mozilla Greenhouse Board",
+        "application_url": "https://job-boards.greenhouse.io/mozilla/jobs/8366765",
+        "profession": "ENGINEERING"
+      },
+      {
+        "id": 7885,
+        "title": "Senior Software Engineer, Privacy",
+        "company": "Mozilla",
+        "location": "Remote Germany",
+        "city": null,
+        "country": "Germany",
+        "country_code": "DE",
+        "work_arrangement": "REMOTE",
+        "employment_type": "FULL_TIME",
+        "source": "Mozilla Greenhouse Board",
+        "application_url": "https://job-boards.greenhouse.io/mozilla/jobs/8301275",
+        "profession": "ENGINEERING"
+      },
+      {
+        "id": 12679,
+        "title": "Software Engineer II , Android-(Vendor)",
+        "company": "Delivery Hero",
+        "location": "Berlin, , Germany",
+        "city": "Berlin",
+        "country": "Germany",
+        "country_code": "DE",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Delivery Hero Smartrecruiters Board",
+        "application_url": "https://jobs.smartrecruiters.com/deliveryhero/744000160238611",
+        "profession": "ENGINEERING"
+      }
+    ]
+  },
+  "Query 7: Python Developer + Remote": {
+    "parameters": {
+      "keyword": "Python Developer",
+      "work_arrangement": "REMOTE"
+    },
+    "total_results": 470,
+    "sample_size_audited": 10,
+    "unique_employers_in_sample": [
+      "Helpware",
+      "Twilio",
+      "Toast",
+      "Affirm",
+      "Ramp"
+    ],
+    "sample_titles": [
+      "Software Engineer II, Support AI",
+      "Staff, Fullstack Software Engineer (L4)",
+      "Senior Software Engineer, Product Foundations",
+      "Senior Software Engineer, Backend (Continuous Delivery)",
+      "Senior Software Engineer, Backend (Continuous Delivery)"
+    ],
+    "sample_locations": [
+      "United States",
+      "United States",
+      "United States",
+      "Canada",
+      "United States"
+    ],
+    "sample_work_arrangements": [
+      "ONSITE"
+    ],
+    "sample_employment_types": [
+      "FULL_TIME"
+    ],
+    "sources_represented": [
+      "Ramp Ashby Board",
+      "Twilio Greenhouse Board",
+      "Toast Greenhouse Board",
+      "Helpware Breezy Board",
+      "Affirm Greenhouse Board"
+    ],
+    "sample_records": [
+      {
+        "id": 19812,
+        "title": "Software Engineer II, Support AI",
+        "company": "Toast",
+        "location": "Remote, US",
+        "city": null,
+        "country": "United States",
+        "country_code": "US",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Toast Greenhouse Board",
+        "application_url": "https://careers.toasttab.com/jobs?gh_jid=8386144",
+        "profession": "ENGINEERING"
+      },
+      {
+        "id": 18720,
+        "title": "Staff, Fullstack Software Engineer (L4)",
+        "company": "Twilio",
+        "location": "Remote - US",
+        "city": null,
+        "country": "United States",
+        "country_code": "US",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Twilio Greenhouse Board",
+        "application_url": "https://job-boards.greenhouse.io/twilio/jobs/8393931",
+        "profession": "ENGINEERING"
+      },
+      {
+        "id": 25866,
+        "title": "Senior Software Engineer, Product Foundations",
+        "company": "Ramp",
+        "location": "Remote (US)",
+        "city": null,
+        "country": "United States",
+        "country_code": "US",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Ramp Ashby Board",
+        "application_url": "https://jobs.ashbyhq.com/ramp/a9cb5fd3-1acb-474e-ab7c-b811eeb5b0c2",
+        "profession": "ENGINEERING"
+      },
+      {
+        "id": 18714,
+        "title": "Senior Software Engineer, Backend (Continuous Delivery)",
+        "company": "Affirm",
+        "location": "Remote Canada",
+        "city": null,
+        "country": "Canada",
+        "country_code": "CA",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Affirm Greenhouse Board",
+        "application_url": "https://job-boards.greenhouse.io/affirm/jobs/8181193003",
+        "profession": "ENGINEERING"
+      },
+      {
+        "id": 18713,
+        "title": "Senior Software Engineer, Backend (Continuous Delivery)",
+        "company": "Affirm",
+        "location": "Remote US",
+        "city": null,
+        "country": "United States",
+        "country_code": "US",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Affirm Greenhouse Board",
+        "application_url": "https://job-boards.greenhouse.io/affirm/jobs/8181191003",
+        "profession": "ENGINEERING"
+      }
+    ]
+  },
+  "Query 8: Store Manager + worldwide": {
+    "parameters": {
+      "keyword": "Store Manager",
+      "location": null
+    },
+    "total_results": 96,
+    "sample_size_audited": 10,
+    "unique_employers_in_sample": [
+      "Delivery Hero"
+    ],
+    "sample_titles": [
+      "Store Manager",
+      "Store Manager",
+      "Store Manager",
+      "Store Manager",
+      "Store Manager (pandamart)"
+    ],
+    "sample_locations": [
+      "Hong Kong, Hong Kong",
+      "Buenos Aires, Argentina",
+      "Stavanger, Norway",
+      "G\u00f6teborg, Sweden",
+      "Singapore, Singapore"
+    ],
+    "sample_work_arrangements": [
+      "ONSITE"
+    ],
+    "sample_employment_types": [
+      "FULL_TIME"
+    ],
+    "sources_represented": [
+      "Delivery Hero Smartrecruiters Board"
+    ],
+    "sample_records": [
+      {
+        "id": 12557,
+        "title": "Store Manager",
+        "company": "Delivery Hero",
+        "location": "Hong Kong, , Hong Kong",
+        "city": "Hong Kong",
+        "country": "Hong Kong",
+        "country_code": "HK",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Delivery Hero Smartrecruiters Board",
+        "application_url": "https://jobs.smartrecruiters.com/deliveryhero/744000161723989",
+        "profession": "HOSPITALITY_RETAIL"
+      },
+      {
+        "id": 12589,
+        "title": "Store Manager",
+        "company": "Delivery Hero",
+        "location": "Ciudad Autonoma de Buenos Aires, , Argentina",
+        "city": "Buenos Aires",
+        "country": "Argentina",
+        "country_code": "AR",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Delivery Hero Smartrecruiters Board",
+        "application_url": "https://jobs.smartrecruiters.com/deliveryhero/744000161362519",
+        "profession": "HOSPITALITY_RETAIL"
+      },
+      {
+        "id": 12634,
+        "title": "Store Manager",
+        "company": "Delivery Hero",
+        "location": "Stavanger, , Norway",
+        "city": "Stavanger",
+        "country": "Norway",
+        "country_code": "NO",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Delivery Hero Smartrecruiters Board",
+        "application_url": "https://jobs.smartrecruiters.com/deliveryhero/744000161047371",
+        "profession": "HOSPITALITY_RETAIL"
+      },
+      {
+        "id": 12689,
+        "title": "Store Manager",
+        "company": "Delivery Hero",
+        "location": "G\u00f6teborg, , Sweden",
+        "city": "G\u00f6teborg",
+        "country": "Sweden",
+        "country_code": "SE",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Delivery Hero Smartrecruiters Board",
+        "application_url": "https://jobs.smartrecruiters.com/deliveryhero/744000160146859",
+        "profession": "HOSPITALITY_RETAIL"
+      },
+      {
+        "id": 12611,
+        "title": "Store Manager (pandamart)",
+        "company": "Delivery Hero",
+        "location": "Singapore, , Singapore",
+        "city": "Singapore",
+        "country": "Singapore",
+        "country_code": "SG",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Delivery Hero Smartrecruiters Board",
+        "application_url": "https://jobs.smartrecruiters.com/deliveryhero/744000161230369",
+        "profession": "HOSPITALITY_RETAIL"
+      }
+    ]
+  }
+}

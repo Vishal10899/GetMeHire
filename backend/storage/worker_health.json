@@ -1,0 +1,8 @@
+{
+  "last_tick_at": "2026-11-18T11:08:15.057851+00:00",
+  "status": "HEALTHY",
+  "due_count": 10,
+  "executed_count": 10,
+  "expired_stale_count": 0,
+  "advisory_lock_key": 884920
+}

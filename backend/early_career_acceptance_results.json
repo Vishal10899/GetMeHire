@@ -1,0 +1,267 @@
+{
+  "Q1": {
+    "query": "Fresher Software Developer",
+    "target_location": "India",
+    "total_results": 20,
+    "latency_ms": 545.21,
+    "top_jobs": [
+      {
+        "id": 13972,
+        "title": "Customer Experience Engineer, L1",
+        "company": "HackerRank",
+        "location": "Hybrid in Bangalore, India",
+        "category": "TRUE_FRESHER",
+        "experience_years": null
+      },
+      {
+        "id": 18420,
+        "title": "ML Data Associate-I (Fixed Term Contract), FAI KFE - Leafrog",
+        "company": "Amazon",
+        "location": "Chennai",
+        "category": "ENTRY_LEVEL",
+        "experience_years": null
+      },
+      {
+        "id": 15797,
+        "title": "IT Support Engineer I, Ops Tech Solutions Delivery",
+        "company": "Amazon",
+        "location": "Mumbai - Virtual",
+        "category": "ENTRY_LEVEL",
+        "experience_years": null
+      }
+    ],
+    "status": "PASS"
+  },
+  "Q2": {
+    "query": "Graduate Data Analyst",
+    "target_location": "India",
+    "total_results": 4,
+    "latency_ms": 127.37,
+    "top_jobs": [
+      {
+        "id": 14399,
+        "title": "Data Engineer I, SPIV Data Engineering",
+        "company": "Amazon",
+        "location": "Bengaluru",
+        "category": "ENTRY_LEVEL",
+        "experience_years": null
+      },
+      {
+        "id": 14259,
+        "title": "Data Engineer I, Business Data Technologies",
+        "company": "Amazon",
+        "location": "Hyderabad",
+        "category": "ENTRY_LEVEL",
+        "experience_years": null
+      },
+      {
+        "id": 14181,
+        "title": "Data Engineer I, DSP Analytics",
+        "company": "Amazon",
+        "location": "Hyderabad",
+        "category": "ENTRY_LEVEL",
+        "experience_years": null
+      }
+    ],
+    "status": "PASS"
+  },
+  "Q3": {
+    "query": "Zero Experience AI Engineer",
+    "target_location": "worldwide",
+    "total_results": 50,
+    "latency_ms": 67.35,
+    "top_jobs": [
+      {
+        "id": 14181,
+        "title": "Data Engineer I, DSP Analytics",
+        "company": "Amazon",
+        "location": "Hyderabad",
+        "category": "ENTRY_LEVEL",
+        "experience_years": null
+      },
+      {
+        "id": 16086,
+        "title": "Associate Data Engineer",
+        "company": "Wildlife Studios",
+        "location": "S\u00e3o Paulo, Brazil",
+        "category": "ENTRY_LEVEL",
+        "experience_years": null
+      },
+      {
+        "id": 21096,
+        "title": "[2027] Data Scientist - PhD Intern",
+        "company": "Roblox",
+        "location": "San Mateo, CA, United States",
+        "category": "INTERNSHIP",
+        "experience_years": null
+      }
+    ],
+    "status": "PASS"
+  },
+  "Q4": {
+    "query": "Junior Accountant",
+    "target_location": "UK",
+    "total_results": 2,
+    "latency_ms": 85.04,
+    "top_jobs": [
+      {
+        "id": 17526,
+        "title": "Specialist, Market Operations",
+        "company": "Coinbase",
+        "location": "Remote - UK",
+        "category": "ENTRY_LEVEL",
+        "experience_years": null
+      },
+      {
+        "id": 7430,
+        "title": "Accounts Payable Clerk",
+        "company": "Canonical",
+        "location": "Home based - EMEA; Office Based - London, UK",
+        "category": "EXPERIENCE_FLEXIBLE",
+        "experience_years": null
+      }
+    ],
+    "status": "PASS"
+  },
+  "Q5": {
+    "query": "Graduate Trainee",
+    "target_location": "Germany",
+    "total_results": 10,
+    "latency_ms": 558.29,
+    "top_jobs": [
+      {
+        "id": 27195,
+        "title": "Software Engineering Intern (2027 Start) - Berlin",
+        "company": "Databricks",
+        "location": "Berlin, Germany",
+        "category": "INTERNSHIP",
+        "experience_years": null
+      },
+      {
+        "id": 27051,
+        "title": "Product Management Intern (2027) - Berlin",
+        "company": "Databricks",
+        "location": "Berlin, Germany",
+        "category": "INTERNSHIP",
+        "experience_years": null
+      },
+      {
+        "id": 12580,
+        "title": "Intern, Data Labeler (Spanish Speaker) - (Global Discovery, Consumer)",
+        "company": "Delivery Hero",
+        "location": "Berlin, , Germany",
+        "category": "INTERNSHIP",
+        "experience_years": null
+      }
+    ],
+    "status": "PASS"
+  },
+  "Q6": {
+    "query": "Paid Internship",
+    "target_location": "USA",
+    "total_results": 225,
+    "latency_ms": 195.49,
+    "top_jobs": [
+      {
+        "id": 27191,
+        "title": "Software Engineering Intern (2027)",
+        "company": "Databricks",
+        "location": "Bellevue, Washington; Mountain View, California; San Francisco, California; Vancouver, Canada",
+        "category": "INTERNSHIP",
+        "experience_years": null
+      },
+      {
+        "id": 27052,
+        "title": "Product Management Intern (Summer 2027)",
+        "company": "Databricks",
+        "location": "Bellevue, Washington; Mountain View, California; San Francisco, California",
+        "category": "INTERNSHIP",
+        "experience_years": null
+      },
+      {
+        "id": 27044,
+        "title": "Product Design Intern (2027 Start)",
+        "company": "Databricks",
+        "location": "San Francisco, California; Seattle, Washington",
+        "category": "INTERNSHIP",
+        "experience_years": null
+      }
+    ],
+    "status": "PASS"
+  },
+  "Q7": {
+    "query": "Fresh Graduate Nurse",
+    "target_location": "Canada",
+    "total_results": 0,
+    "latency_ms": 73.74,
+    "top_jobs": [],
+    "status": "ZERO_RESULTS_INVESTIGATE"
+  },
+  "Q8": {
+    "query": "Entry-Level Marketing Associate",
+    "target_location": "Australia",
+    "total_results": 1,
+    "latency_ms": 64.4,
+    "top_jobs": [
+      {
+        "id": 6847,
+        "title": "Marketing Specialist (Melbourne)",
+        "company": "Coursera",
+        "location": "Melbourne, Australia",
+        "category": "EXPERIENCE_FLEXIBLE",
+        "experience_years": null
+      }
+    ],
+    "status": "PASS"
+  },
+  "Q9": {
+    "query": "Apprenticeship",
+    "target_location": "worldwide",
+    "total_results": 1,
+    "latency_ms": 28.23,
+    "top_jobs": [
+      {
+        "id": 3701,
+        "title": "Operations Associate, Apprenticeship",
+        "company": "Stripe",
+        "location": "Bengaluru",
+        "category": "APPRENTICESHIP",
+        "experience_years": null
+      }
+    ],
+    "status": "PASS"
+  },
+  "Q10": {
+    "query": "No Experience Customer Support",
+    "target_location": "India",
+    "total_results": 13,
+    "latency_ms": 75.61,
+    "top_jobs": [
+      {
+        "id": 26674,
+        "title": "CXQO Associate, CXQO",
+        "company": "Amazon",
+        "location": "Hyderabad",
+        "category": "ENTRY_LEVEL",
+        "experience_years": null
+      },
+      {
+        "id": 15844,
+        "title": "Customer Service Associate- Delhi India",
+        "company": "Amazon",
+        "location": "Noida",
+        "category": "ENTRY_LEVEL",
+        "experience_years": null
+      },
+      {
+        "id": 15821,
+        "title": "Quality Associate, LMAQ, Last Mile Analytics and Quality (LMAQ)",
+        "company": "Amazon",
+        "location": "Bengaluru",
+        "category": "ENTRY_LEVEL",
+        "experience_years": null
+      }
+    ],
+    "status": "PASS"
+  }
+}

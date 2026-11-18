@@ -1,0 +1,27 @@
+[Unit]
+Description=GlobalJobs Background Ingestion Scheduler Worker
+After=network.target postgresql.service redis.service
+Wants=postgresql.service redis.service
+
+[Service]
+Type=simple
+User=globaljobs
+Group=globaljobs
+WorkingDirectory=/opt/globaljobs/backend
+Environment="PATH=/opt/globaljobs/backend/venv/bin:/usr/local/bin:/usr/bin"
+EnvironmentFile=/opt/globaljobs/backend/.env
+ExecStart=/opt/globaljobs/backend/venv/bin/python -m app.worker --interval 300 --max-sources 10
+Restart=always
+RestartSec=10
+StandardOutput=append:/var/log/globaljobs/worker.log
+StandardError=append:/var/log/globaljobs/worker_err.log
+LimitNOFILE=65535
+
+# Security Sandbox controls
+NoNewPrivileges=true
+ProtectSystem=full
+ProtectHome=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
