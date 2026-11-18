@@ -1,0 +1,27 @@
+[Unit]
+Description=GetMeHire FastAPI Production Application
+After=network.target postgresql.service
+Wants=postgresql.service
+
+[Service]
+Type=simple
+User=globaljobs
+Group=globaljobs
+WorkingDirectory=/opt/globaljobs/backend
+Environment="PATH=/opt/globaljobs/backend/venv/bin:/usr/local/bin:/usr/bin"
+EnvironmentFile=/opt/globaljobs/backend/.env
+ExecStart=/opt/globaljobs/backend/venv/bin/uvicorn app.main:app --host 127.0.0.1 --port 8000 --workers 4 --proxy-headers --forwarded-allow-ips='*'
+Restart=always
+RestartSec=5
+StandardOutput=append:/var/log/globaljobs/api.log
+StandardError=append:/var/log/globaljobs/api_err.log
+LimitNOFILE=65535
+
+# Security hardening
+NoNewPrivileges=true
+ProtectSystem=full
+ProtectHome=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

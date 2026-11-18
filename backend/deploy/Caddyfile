@@ -1,0 +1,32 @@
+# Caddyfile for GetMeHire Production Backend
+# Provides automated zero-configuration Let's Encrypt SSL/TLS certificates
+# Replace {YOUR_SUBDOMAIN} with your free subdomain (e.g., api-getmehire.duckdns.org or {IP}.nip.io)
+
+{$BACKEND_DOMAIN:api.getmehire.duckdns.org} {
+    # Reverse proxy all API and Swagger requests to local FastAPI Uvicorn
+    reverse_proxy 127.0.0.1:8000 {
+        header_up Host {host}
+        header_up X-Real-IP {remote}
+        header_up X-Forwarded-For {remote}
+        header_up X-Forwarded-Proto {scheme}
+    }
+
+    # Strict production transport security & CORS headers
+    header {
+        Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+        X-Content-Type-Options "nosniff"
+        X-Frame-Options "DENY"
+        Referrer-Policy "strict-origin-when-cross-origin"
+    }
+
+    # Enable gzip / zstd compression
+    encode zstd gzip
+
+    # Logging
+    log {
+        output file /var/log/caddy/getmehire_access.log {
+            roll_size 50mb
+            roll_keep 5
+        }
+    }
+}
