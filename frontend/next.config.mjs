@@ -6,6 +6,7 @@ const backendBase = (
 ).replace(/\/api\/v1\/?$/, "");
 
 const nextConfig = {
+  transpilePackages: ["motion", "motion-dom", "motion-utils"],
   eslint: {
     ignoreDuringBuilds: true,
   },
