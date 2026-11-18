@@ -7,25 +7,25 @@
     "total_results": 60,
     "sample_size_audited": 10,
     "unique_employers_in_sample": [
-      "Elastic",
-      "Twilio",
-      "Pure Storage",
+      "InMobi",
+      "OpenAI",
       "Amazon",
-      "OpenAI"
+      "Coinbase",
+      "Twilio"
     ],
     "sample_titles": [
+      "Evergreen - AI Engineer, AI FDE",
       "IT Risk & AI Engineer, IT Risk",
-      "Sr AI Engineer, Agentic Systems",
       "Senior Applied AI Engineer",
-      "Agentic AI Engineer",
-      "Staff AI Engineer, Agentic AI for Finance"
+      "Applied AI Engineer, Partner - AWS",
+      "Principal, Machine Learning Engineer (L5)"
     ],
     "sample_locations": [
       "Bengaluru, India",
       "Bengaluru, India",
       "Bengaluru, India",
       "Bengaluru, India",
-      "Bengaluru, India"
+      "India"
     ],
     "sample_work_arrangements": [
       "REMOTE",
@@ -35,14 +35,29 @@
       "FULL_TIME"
     ],
     "sources_represented": [
-      "Pure Storage Official Greenhouse Board",
-      "Twilio Greenhouse Board",
+      "Coinbase Greenhouse",
       "OpenAI Ashby Board",
-      "Elastic Greenhouse Board",
-      "Rubrik Greenhouse",
-      "Amazon Jobs Official Feed"
+      "Databricks Greenhouse",
+      "Amazon Jobs Official Feed",
+      "InMobi Greenhouse Board",
+      "Twilio Greenhouse Board",
+      "Rubrik Greenhouse"
     ],
     "sample_records": [
+      {
+        "id": 26915,
+        "title": "Evergreen - AI Engineer, AI FDE",
+        "company": "Databricks",
+        "location": "Bengaluru, India",
+        "city": "Bengaluru",
+        "country": "India",
+        "country_code": "IN",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Databricks Greenhouse",
+        "application_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8878946002",
+        "profession": "DATA_AI"
+      },
       {
         "id": 14337,
         "title": "IT Risk & AI Engineer, IT Risk",
@@ -56,20 +71,6 @@
         "source": "Amazon Jobs Official Feed",
         "application_url": "https://www.amazon.jobs/en/jobs/10595131/it-risk-ai-engineer-it-risk",
         "profession": "DATA_AI"
-      },
-      {
-        "id": 13617,
-        "title": "Sr AI Engineer, Agentic Systems",
-        "company": "Rubrik",
-        "location": "Bengaluru, India",
-        "city": "Bengaluru",
-        "country": "India",
-        "country_code": "IN",
-        "work_arrangement": "ONSITE",
-        "employment_type": "FULL_TIME",
-        "source": "Rubrik Greenhouse",
-        "application_url": "https://www.rubrik.com/company/careers/departments/job.8318044?gh_jid=8318044",
-        "profession": "ENGINEERING"
       },
       {
         "id": 13572,
@@ -86,32 +87,32 @@
         "profession": "DATA_AI"
       },
       {
-        "id": 9314,
-        "title": "Agentic AI Engineer",
-        "company": "Elastic",
-        "location": "Bangalore, India",
+        "id": 9975,
+        "title": "Applied AI Engineer, Partner - AWS",
+        "company": "OpenAI",
+        "location": "Bangalore - Remote",
         "city": "Bengaluru",
         "country": "India",
         "country_code": "IN",
-        "work_arrangement": "ONSITE",
+        "work_arrangement": "REMOTE",
         "employment_type": "FULL_TIME",
-        "source": "Elastic Greenhouse Board",
-        "application_url": "https://jobs.elastic.co/jobs?gh_jid=8247206&gh_jid=8247206",
-        "profession": "ENGINEERING"
+        "source": "OpenAI Ashby Board",
+        "application_url": "https://jobs.ashbyhq.com/openai/87989505-81e5-4513-bba0-5f00bb064216",
+        "profession": "DATA_AI"
       },
       {
-        "id": 16837,
-        "title": "Staff AI Engineer, Agentic AI for Finance",
-        "company": "Pure Storage",
-        "location": "Bangalore, India",
-        "city": "Bengaluru",
+        "id": 10810,
+        "title": "Principal, Machine Learning Engineer (L5)",
+        "company": "Twilio",
+        "location": "Remote - India",
+        "city": null,
         "country": "India",
         "country_code": "IN",
-        "work_arrangement": "ONSITE",
+        "work_arrangement": "REMOTE",
         "employment_type": "FULL_TIME",
-        "source": "Pure Storage Official Greenhouse Board",
-        "application_url": "https://job-boards.greenhouse.io/purestorage/jobs/8330271",
-        "profession": "FINANCE_ACCOUNTING"
+        "source": "Twilio Greenhouse Board",
+        "application_url": "https://job-boards.greenhouse.io/twilio/jobs/8258597",
+        "profession": "DATA_AI"
       }
     ]
   },
@@ -120,28 +121,27 @@
       "keyword": "AI Engineer",
       "location": null
     },
-    "total_results": 562,
+    "total_results": 577,
     "sample_size_audited": 10,
     "unique_employers_in_sample": [
-      "InMobi",
-      "Stripe",
-      "MongoDB",
+      "Databricks",
       "Amazon",
-      "OpenAI"
+      "OpenAI",
+      "Rubrik"
     ],
     "sample_titles": [
-      "AI Engineer",
-      "AI Engineer",
-      "Backend Engineer (Ruby), AI Engineering: AI Catalog",
-      "IT Risk & AI Engineer, IT Risk",
-      "Partner Applied AI Engineer, AWS"
+      "Senior AI Engineer - FDE (Forward Deployed Engineer)",
+      "Evergreen - AI Engineer, AI FDE",
+      "Applied AI Engineer",
+      "AI Engineer \u2013 Forward Deployed Engineering (AI FDE), U.S. Public Sector (Federal Focus)",
+      "AI Engineer \u2013 Forward Deployed Engineering (AI FDE)"
     ],
     "sample_locations": [
-      "San Mateo, United States",
-      "Chicago, United States",
-      "United Kingdom",
+      "Tokyo, Japan",
       "Bengaluru, India",
-      "San Francisco, United States"
+      "Belgrade, Serbia",
+      "Maryland; Virginia; Washington, D.C.",
+      "United States"
     ],
     "sample_work_arrangements": [
       "ONSITE"
@@ -150,83 +150,80 @@
       "FULL_TIME"
     ],
     "sources_represented": [
-      "InMobi Greenhouse Board",
-      "MongoDB Official Greenhouse Board",
-      "Stripe Greenhouse ATS",
-      "OpenAI Ashby Board",
       "Rubrik Greenhouse",
-      "GitLab Greenhouse Board",
-      "Amazon Jobs Official Feed"
+      "Databricks Greenhouse",
+      "Amazon Jobs Official Feed",
+      "OpenAI Ashby Board"
     ],
     "sample_records": [
       {
-        "id": 7251,
-        "title": "AI Engineer",
-        "company": "InMobi",
-        "location": "San Mateo, CA",
-        "city": "San Mateo",
-        "country": "United States",
-        "country_code": "US",
+        "id": 27069,
+        "title": "Senior AI Engineer - FDE (Forward Deployed Engineer)",
+        "company": "Databricks",
+        "location": "Tokyo, Japan",
+        "city": "Tokyo",
+        "country": "Japan",
+        "country_code": "JP",
         "work_arrangement": "ONSITE",
         "employment_type": "FULL_TIME",
-        "source": "InMobi Greenhouse Board",
-        "application_url": "https://job-boards.greenhouse.io/inmobi/jobs/8113314",
-        "profession": "ENGINEERING"
+        "source": "Databricks Greenhouse",
+        "application_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569392002",
+        "profession": "DATA_AI"
       },
       {
-        "id": 6519,
-        "title": "AI Engineer",
-        "company": "Stripe",
-        "location": "Chicago",
-        "city": "Chicago",
-        "country": "United States",
-        "country_code": "US",
-        "work_arrangement": "ONSITE",
-        "employment_type": "FULL_TIME",
-        "source": "Stripe Greenhouse ATS",
-        "application_url": "https://stripe.com/jobs/search?gh_jid=8144196",
-        "profession": "ENGINEERING"
-      },
-      {
-        "id": 17961,
-        "title": "Backend Engineer (Ruby), AI Engineering: AI Catalog",
-        "company": "GitLab",
-        "location": "Remote, United Kingdom",
-        "city": null,
-        "country": "United Kingdom",
-        "country_code": "GB",
-        "work_arrangement": "ONSITE",
-        "employment_type": "FULL_TIME",
-        "source": "GitLab Greenhouse Board",
-        "application_url": "https://job-boards.greenhouse.io/gitlab/jobs/8940898002",
-        "profession": "ENGINEERING"
-      },
-      {
-        "id": 14337,
-        "title": "IT Risk & AI Engineer, IT Risk",
-        "company": "Amazon",
-        "location": "Bengaluru",
+        "id": 26915,
+        "title": "Evergreen - AI Engineer, AI FDE",
+        "company": "Databricks",
+        "location": "Bengaluru, India",
         "city": "Bengaluru",
         "country": "India",
         "country_code": "IN",
         "work_arrangement": "ONSITE",
         "employment_type": "FULL_TIME",
-        "source": "Amazon Jobs Official Feed",
-        "application_url": "https://www.amazon.jobs/en/jobs/10595131/it-risk-ai-engineer-it-risk",
+        "source": "Databricks Greenhouse",
+        "application_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8878946002",
         "profession": "DATA_AI"
       },
       {
-        "id": 10539,
-        "title": "Partner Applied AI Engineer, AWS",
-        "company": "OpenAI",
-        "location": "San Francisco",
-        "city": "San Francisco",
+        "id": 26802,
+        "title": "Applied AI Engineer",
+        "company": "Databricks",
+        "location": "Belgrade, Serbia",
+        "city": null,
+        "country": null,
+        "country_code": null,
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Databricks Greenhouse",
+        "application_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8091041002",
+        "profession": "DATA_AI"
+      },
+      {
+        "id": 26795,
+        "title": "AI Engineer \u2013 Forward Deployed Engineering (AI FDE), U.S. Public Sector (Federal Focus)",
+        "company": "Databricks",
+        "location": "Maryland; Virginia; Washington, D.C.",
+        "city": null,
+        "country": null,
+        "country_code": null,
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Databricks Greenhouse",
+        "application_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8760167002",
+        "profession": "DATA_AI"
+      },
+      {
+        "id": 26794,
+        "title": "AI Engineer \u2013 Forward Deployed Engineering (AI FDE)",
+        "company": "Databricks",
+        "location": "United States",
+        "city": null,
         "country": "United States",
         "country_code": "US",
         "work_arrangement": "ONSITE",
         "employment_type": "FULL_TIME",
-        "source": "OpenAI Ashby Board",
-        "application_url": "https://jobs.ashbyhq.com/openai/9635775d-18fa-47bb-9ede-9a4137618de0",
+        "source": "Databricks Greenhouse",
+        "application_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8546367002",
         "profession": "DATA_AI"
       }
     ]
@@ -236,26 +233,26 @@
       "keyword": "Web Developer",
       "location": "London"
     },
-    "total_results": 164,
+    "total_results": 168,
     "sample_size_audited": 10,
     "unique_employers_in_sample": [
-      "Anthropic",
+      "Trustpilot",
       "Anduril Industries",
-      "Ripple",
       "Wise",
-      "Trustpilot"
+      "Databricks",
+      "Anthropic"
     ],
     "sample_titles": [
-      "Senior Software Engineer II - Wise for Banks",
-      "Senior Software Engineer II - Account Integrity",
-      "Senior Software Engineer, Modelling & Simulation - Advanced Capabilities",
-      "2027 Software Engineer Intern",
-      "Staff+ Software Engineer, Deployment"
+      "Staff Software Engineer - Backend",
+      "Software Engineer - New Grad (2027 Start) - London",
+      "Software Engineering Intern (2027 Start) - London",
+      "Senior Staff Software Engineer - Delta",
+      "Senior Software Engineer II - Wise for Banks"
     ],
     "sample_locations": [
       "London, United Kingdom",
       "London, United Kingdom",
-      "United Kingdom",
+      "London, United Kingdom",
       "London, United Kingdom",
       "London, United Kingdom"
     ],
@@ -266,13 +263,69 @@
       "FULL_TIME"
     ],
     "sources_represented": [
-      "Trustpilot Greenhouse",
       "Anduril Industries Greenhouse Board",
-      "Wise Smartrecruiters",
+      "Databricks Greenhouse",
+      "Trustpilot Greenhouse",
       "Anthropic Greenhouse ATS",
-      "Ripple Greenhouse Board"
+      "Wise Smartrecruiters"
     ],
     "sample_records": [
+      {
+        "id": 27563,
+        "title": "Staff Software Engineer - Backend",
+        "company": "Databricks",
+        "location": "London, United Kingdom",
+        "city": "London",
+        "country": "United Kingdom",
+        "country_code": "GB",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Databricks Greenhouse",
+        "application_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8374611002",
+        "profession": "ENGINEERING"
+      },
+      {
+        "id": 27201,
+        "title": "Software Engineer - New Grad (2027 Start) - London",
+        "company": "Databricks",
+        "location": "London, United Kingdom",
+        "city": "London",
+        "country": "United Kingdom",
+        "country_code": "GB",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Databricks Greenhouse",
+        "application_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8847747002",
+        "profession": "ENGINEERING"
+      },
+      {
+        "id": 27196,
+        "title": "Software Engineering Intern (2027 Start) - London",
+        "company": "Databricks",
+        "location": "London, United Kingdom",
+        "city": "London",
+        "country": "United Kingdom",
+        "country_code": "GB",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Databricks Greenhouse",
+        "application_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8847738002",
+        "profession": "ENGINEERING"
+      },
+      {
+        "id": 27168,
+        "title": "Senior Staff Software Engineer - Delta",
+        "company": "Databricks",
+        "location": "London, United Kingdom",
+        "city": "London",
+        "country": "United Kingdom",
+        "country_code": "GB",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Databricks Greenhouse",
+        "application_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8303020002",
+        "profession": "ENGINEERING"
+      },
       {
         "id": 18869,
         "title": "Senior Software Engineer II - Wise for Banks",
@@ -286,62 +339,6 @@
         "source": "Wise Smartrecruiters",
         "application_url": "https://jobs.smartrecruiters.com/wise/744000162085909",
         "profession": "ENGINEERING"
-      },
-      {
-        "id": 18881,
-        "title": "Senior Software Engineer II - Account Integrity",
-        "company": "Wise",
-        "location": "London, , United Kingdom",
-        "city": "London",
-        "country": "United Kingdom",
-        "country_code": "GB",
-        "work_arrangement": "ONSITE",
-        "employment_type": "FULL_TIME",
-        "source": "Wise Smartrecruiters",
-        "application_url": "https://jobs.smartrecruiters.com/wise/744000162049114",
-        "profession": "ENGINEERING"
-      },
-      {
-        "id": 23855,
-        "title": "Senior Software Engineer, Modelling & Simulation - Advanced Capabilities",
-        "company": "Anduril Industries",
-        "location": "Abu Dhabi, United Arab Emirates; London, England, United Kingdom",
-        "city": null,
-        "country": "United Kingdom",
-        "country_code": "GB",
-        "work_arrangement": "ONSITE",
-        "employment_type": "FULL_TIME",
-        "source": "Anduril Industries Greenhouse Board",
-        "application_url": "https://boards.greenhouse.io/andurilindustries/jobs/5206672007?gh_jid=5206672007",
-        "profession": "ENGINEERING"
-      },
-      {
-        "id": 22048,
-        "title": "2027 Software Engineer Intern",
-        "company": "Anduril Industries",
-        "location": "London, England, United Kingdom",
-        "city": "London",
-        "country": "United Kingdom",
-        "country_code": "GB",
-        "work_arrangement": "ONSITE",
-        "employment_type": "FULL_TIME",
-        "source": "Anduril Industries Greenhouse Board",
-        "application_url": "https://boards.greenhouse.io/andurilindustries/jobs/5255902007?gh_jid=5255902007",
-        "profession": "ENGINEERING"
-      },
-      {
-        "id": 12925,
-        "title": "Staff+ Software Engineer, Deployment",
-        "company": "Anthropic",
-        "location": "London, UK",
-        "city": "London",
-        "country": "United Kingdom",
-        "country_code": "GB",
-        "work_arrangement": "ONSITE",
-        "employment_type": "FULL_TIME",
-        "source": "Anthropic Greenhouse ATS",
-        "application_url": "https://job-boards.greenhouse.io/anthropic/jobs/5484144008",
-        "profession": "ENGINEERING"
       }
     ]
   },
@@ -350,25 +347,25 @@
       "keyword": "Senior Surgeon",
       "location": null
     },
-    "total_results": 270,
+    "total_results": 276,
     "sample_size_audited": 10,
     "unique_employers_in_sample": [
-      "Oscar Health",
-      "One Medical"
+      "One Medical",
+      "Oscar Health"
     ],
     "sample_titles": [
+      "Physician - Virtual Urgent Care (Part-Time)",
+      "Virtual Physician Assistant- MD Licensed",
+      "Virtual Physician Assistant - VA Licensed",
       "Physician (Bilingual Spanish) - Virtual Urgent Care (Nights - 7 days on & 7 days off)",
-      "Bilingual (Spanish) Physician Assistant - Virtual Health Assessment (GA License Required)",
-      "Bilingual (Spanish) Physician Assistant - Virtual Health Assessment",
-      "Family Nurse Practitioner or Physician Assistant",
-      "Virtual Primary Care Physician - NY, DC or CA Licensed"
+      "Bilingual (Spanish) Physician Assistant - Virtual Health Assessment (GA License Required)"
     ],
     "sample_locations": [
       "Remote",
+      "Annapolis, United States",
+      "Richmond, United States",
       "Remote",
-      "Remote",
-      "New York, United States",
-      "Houston, United States"
+      "Remote"
     ],
     "sample_work_arrangements": [
       "ONSITE"
@@ -381,6 +378,48 @@
       "Oscar Health Greenhouse"
     ],
     "sample_records": [
+      {
+        "id": 26707,
+        "title": "Physician - Virtual Urgent Care (Part-Time)",
+        "company": "Oscar Health",
+        "location": "Remote",
+        "city": null,
+        "country": null,
+        "country_code": null,
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Oscar Health Greenhouse",
+        "application_url": "https://oscarhealth.com/careers/jobs?gh_jid=8380036",
+        "profession": "HEALTHCARE_MEDICAL"
+      },
+      {
+        "id": 27726,
+        "title": "Virtual Physician Assistant- MD Licensed",
+        "company": "One Medical",
+        "location": "Annapolis, MD",
+        "city": "Annapolis",
+        "country": "United States",
+        "country_code": "US",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "One Medical Greenhouse",
+        "application_url": "http://www.onemedical.com/careers/all-departments/8397157?gh_jid=8397157",
+        "profession": "HEALTHCARE_MEDICAL"
+      },
+      {
+        "id": 27727,
+        "title": "Virtual Physician Assistant - VA Licensed",
+        "company": "One Medical",
+        "location": "Richmond, VA",
+        "city": "Richmond",
+        "country": "United States",
+        "country_code": "US",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "One Medical Greenhouse",
+        "application_url": "http://www.onemedical.com/careers/all-departments/8397127?gh_jid=8397127",
+        "profession": "HEALTHCARE_MEDICAL"
+      },
       {
         "id": 18861,
         "title": "Physician (Bilingual Spanish) - Virtual Urgent Care (Nights - 7 days on & 7 days off)",
@@ -408,48 +447,6 @@
         "source": "Oscar Health Greenhouse",
         "application_url": "https://oscarhealth.com/careers/jobs?gh_jid=8396540",
         "profession": "HEALTHCARE_MEDICAL"
-      },
-      {
-        "id": 18856,
-        "title": "Bilingual (Spanish) Physician Assistant - Virtual Health Assessment",
-        "company": "Oscar Health",
-        "location": "Remote",
-        "city": null,
-        "country": null,
-        "country_code": null,
-        "work_arrangement": "ONSITE",
-        "employment_type": "FULL_TIME",
-        "source": "Oscar Health Greenhouse",
-        "application_url": "https://oscarhealth.com/careers/jobs?gh_jid=8396534",
-        "profession": "HEALTHCARE_MEDICAL"
-      },
-      {
-        "id": 18455,
-        "title": "Family Nurse Practitioner or Physician Assistant",
-        "company": "One Medical",
-        "location": "New York, NY",
-        "city": "New York",
-        "country": "United States",
-        "country_code": "US",
-        "work_arrangement": "ONSITE",
-        "employment_type": "FULL_TIME",
-        "source": "One Medical Greenhouse",
-        "application_url": "http://www.onemedical.com/careers/all-departments/8325385?gh_jid=8325385",
-        "profession": "HEALTHCARE_MEDICAL"
-      },
-      {
-        "id": 17955,
-        "title": "Virtual Primary Care Physician - NY, DC or CA Licensed",
-        "company": "One Medical",
-        "location": "Houston, TX",
-        "city": "Houston",
-        "country": "United States",
-        "country_code": "US",
-        "work_arrangement": "ONSITE",
-        "employment_type": "FULL_TIME",
-        "source": "One Medical Greenhouse",
-        "application_url": "http://www.onemedical.com/careers/all-departments/8198259?gh_jid=8198259",
-        "profession": "HEALTHCARE_MEDICAL"
       }
     ]
   },
@@ -461,8 +458,8 @@
     "total_results": 16,
     "sample_size_audited": 10,
     "unique_employers_in_sample": [
-      "GitLab",
       "Reddit",
+      "GitLab",
       "Stripe"
     ],
     "sample_titles": [
@@ -484,12 +481,12 @@
       "ONSITE"
     ],
     "sample_employment_types": [
-      "INTERNSHIP",
-      "FULL_TIME"
+      "FULL_TIME",
+      "INTERNSHIP"
     ],
     "sources_represented": [
-      "Stripe Greenhouse ATS",
       "GitLab Greenhouse Board",
+      "Stripe Greenhouse ATS",
       "Reddit Greenhouse"
     ],
     "sample_records": [
@@ -570,39 +567,40 @@
       "keyword": "Software Engineer",
       "location": "Germany"
     },
-    "total_results": 28,
+    "total_results": 38,
     "sample_size_audited": 10,
     "unique_employers_in_sample": [
       "Mozilla",
       "Planet Labs",
-      "Delivery Hero"
+      "Databricks",
+      "Grafana Labs"
     ],
     "sample_titles": [
       "Software Engineer",
       "Software Engineer",
-      "Senior Software Engineer, OS Integration",
-      "Senior Software Engineer, Privacy",
-      "Software Engineer II , Android-(Vendor)"
+      "Staff Software Engineer - Backend",
+      "Software Engineer - New Grad (2027 Start) - Berlin",
+      "Software Engineering Intern (2027 Start) - Berlin"
     ],
     "sample_locations": [
       "Berlin, Germany",
       "Berlin, Germany",
-      "Germany",
-      "Germany",
+      "Berlin, Germany",
+      "Berlin, Germany",
       "Berlin, Germany"
     ],
     "sample_work_arrangements": [
       "REMOTE",
-      "ONSITE",
-      "HYBRID"
+      "ONSITE"
     ],
     "sample_employment_types": [
       "FULL_TIME"
     ],
     "sources_represented": [
+      "Databricks Greenhouse",
       "Planet Labs Greenhouse Board",
-      "Delivery Hero Smartrecruiters Board",
-      "Mozilla Greenhouse Board"
+      "Mozilla Greenhouse Board",
+      "Grafana Labs Greenhouse"
     ],
     "sample_records": [
       {
@@ -634,45 +632,45 @@
         "profession": "ENGINEERING"
       },
       {
-        "id": 7877,
-        "title": "Senior Software Engineer, OS Integration",
-        "company": "Mozilla",
-        "location": "Remote Germany",
-        "city": null,
-        "country": "Germany",
-        "country_code": "DE",
-        "work_arrangement": "REMOTE",
-        "employment_type": "FULL_TIME",
-        "source": "Mozilla Greenhouse Board",
-        "application_url": "https://job-boards.greenhouse.io/mozilla/jobs/8366765",
-        "profession": "ENGINEERING"
-      },
-      {
-        "id": 7885,
-        "title": "Senior Software Engineer, Privacy",
-        "company": "Mozilla",
-        "location": "Remote Germany",
-        "city": null,
-        "country": "Germany",
-        "country_code": "DE",
-        "work_arrangement": "REMOTE",
-        "employment_type": "FULL_TIME",
-        "source": "Mozilla Greenhouse Board",
-        "application_url": "https://job-boards.greenhouse.io/mozilla/jobs/8301275",
-        "profession": "ENGINEERING"
-      },
-      {
-        "id": 12679,
-        "title": "Software Engineer II , Android-(Vendor)",
-        "company": "Delivery Hero",
-        "location": "Berlin, , Germany",
+        "id": 27556,
+        "title": "Staff Software Engineer - Backend",
+        "company": "Databricks",
+        "location": "Berlin, Germany",
         "city": "Berlin",
         "country": "Germany",
         "country_code": "DE",
         "work_arrangement": "ONSITE",
         "employment_type": "FULL_TIME",
-        "source": "Delivery Hero Smartrecruiters Board",
-        "application_url": "https://jobs.smartrecruiters.com/deliveryhero/744000160238611",
+        "source": "Databricks Greenhouse",
+        "application_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7984907002",
+        "profession": "ENGINEERING"
+      },
+      {
+        "id": 27200,
+        "title": "Software Engineer - New Grad (2027 Start) - Berlin",
+        "company": "Databricks",
+        "location": "Berlin, Germany",
+        "city": "Berlin",
+        "country": "Germany",
+        "country_code": "DE",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Databricks Greenhouse",
+        "application_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6886281002",
+        "profession": "ENGINEERING"
+      },
+      {
+        "id": 27195,
+        "title": "Software Engineering Intern (2027 Start) - Berlin",
+        "company": "Databricks",
+        "location": "Berlin, Germany",
+        "city": "Berlin",
+        "country": "Germany",
+        "country_code": "DE",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Databricks Greenhouse",
+        "application_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6866531002",
         "profession": "ENGINEERING"
       }
     ]
@@ -682,27 +680,27 @@
       "keyword": "Python Developer",
       "work_arrangement": "REMOTE"
     },
-    "total_results": 470,
+    "total_results": 625,
     "sample_size_audited": 10,
     "unique_employers_in_sample": [
-      "Helpware",
+      "OpenAI",
       "Twilio",
-      "Toast",
       "Affirm",
-      "Ramp"
+      "Toast",
+      "Databricks"
     ],
     "sample_titles": [
+      "Sr. Staff Security Software Engineer - Agentic Security Engineering",
+      "Full Stack Software Engineer, Dots for Companies",
       "Software Engineer II, Support AI",
       "Staff, Fullstack Software Engineer (L4)",
-      "Senior Software Engineer, Product Foundations",
-      "Senior Software Engineer, Backend (Continuous Delivery)",
-      "Senior Software Engineer, Backend (Continuous Delivery)"
+      "Senior Software Engineer, Product Foundations"
     ],
     "sample_locations": [
+      "Remote - California",
+      "San Francisco, United States",
       "United States",
       "United States",
-      "United States",
-      "Canada",
       "United States"
     ],
     "sample_work_arrangements": [
@@ -712,13 +710,42 @@
       "FULL_TIME"
     ],
     "sources_represented": [
+      "OpenAI Ashby Board",
+      "Toast Greenhouse Board",
+      "Databricks Greenhouse",
       "Ramp Ashby Board",
       "Twilio Greenhouse Board",
-      "Toast Greenhouse Board",
-      "Helpware Breezy Board",
       "Affirm Greenhouse Board"
     ],
     "sample_records": [
+      {
+        "id": 27492,
+        "title": "Sr. Staff Security Software Engineer - Agentic Security Engineering",
+        "company": "Databricks",
+        "location": "Remote - California",
+        "city": null,
+        "country": null,
+        "country_code": null,
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "Databricks Greenhouse",
+        "application_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8612865002",
+        "profession": "ENGINEERING"
+      },
+      {
+        "id": 27833,
+        "title": "Full Stack Software Engineer, Dots for Companies",
+        "company": "OpenAI",
+        "location": "San Francisco",
+        "city": "San Francisco",
+        "country": "United States",
+        "country_code": "US",
+        "work_arrangement": "ONSITE",
+        "employment_type": "FULL_TIME",
+        "source": "OpenAI Ashby Board",
+        "application_url": "https://jobs.ashbyhq.com/openai/7447dd43-9bf5-445f-bb8c-ba57756c8d04",
+        "profession": "ENGINEERING"
+      },
       {
         "id": 19812,
         "title": "Software Engineer II, Support AI",
@@ -760,34 +787,6 @@
         "source": "Ramp Ashby Board",
         "application_url": "https://jobs.ashbyhq.com/ramp/a9cb5fd3-1acb-474e-ab7c-b811eeb5b0c2",
         "profession": "ENGINEERING"
-      },
-      {
-        "id": 18714,
-        "title": "Senior Software Engineer, Backend (Continuous Delivery)",
-        "company": "Affirm",
-        "location": "Remote Canada",
-        "city": null,
-        "country": "Canada",
-        "country_code": "CA",
-        "work_arrangement": "ONSITE",
-        "employment_type": "FULL_TIME",
-        "source": "Affirm Greenhouse Board",
-        "application_url": "https://job-boards.greenhouse.io/affirm/jobs/8181193003",
-        "profession": "ENGINEERING"
-      },
-      {
-        "id": 18713,
-        "title": "Senior Software Engineer, Backend (Continuous Delivery)",
-        "company": "Affirm",
-        "location": "Remote US",
-        "city": null,
-        "country": "United States",
-        "country_code": "US",
-        "work_arrangement": "ONSITE",
-        "employment_type": "FULL_TIME",
-        "source": "Affirm Greenhouse Board",
-        "application_url": "https://job-boards.greenhouse.io/affirm/jobs/8181191003",
-        "profession": "ENGINEERING"
       }
     ]
   },
@@ -796,7 +795,7 @@
       "keyword": "Store Manager",
       "location": null
     },
-    "total_results": 96,
+    "total_results": 97,
     "sample_size_audited": 10,
     "unique_employers_in_sample": [
       "Delivery Hero"

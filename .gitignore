@@ -22,3 +22,19 @@ dist/
 Thumbs.db
 backups/
 storage/resumes/*
+
+# Defense-in-depth database and certificate exclusions
+*.dump
+*.sql
+*.bak
+*.pem
+*.key
+*.crt
+
+# Runtime worker heartbeat telemetry
+backend/storage/worker_health.json
+
+# Local editor and OS artifacts
+.idea/
+*.swp
+desktop.ini

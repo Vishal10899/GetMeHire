@@ -3,7 +3,7 @@
     "query": "Fresher Software Developer",
     "target_location": "India",
     "total_results": 20,
-    "latency_ms": 545.21,
+    "latency_ms": 941.45,
     "top_jobs": [
       {
         "id": 13972,
@@ -36,7 +36,7 @@
     "query": "Graduate Data Analyst",
     "target_location": "India",
     "total_results": 4,
-    "latency_ms": 127.37,
+    "latency_ms": 237.99,
     "top_jobs": [
       {
         "id": 14399,
@@ -69,7 +69,7 @@
     "query": "Zero Experience AI Engineer",
     "target_location": "worldwide",
     "total_results": 50,
-    "latency_ms": 67.35,
+    "latency_ms": 113.14,
     "top_jobs": [
       {
         "id": 14181,
@@ -102,7 +102,7 @@
     "query": "Junior Accountant",
     "target_location": "UK",
     "total_results": 2,
-    "latency_ms": 85.04,
+    "latency_ms": 99.45,
     "top_jobs": [
       {
         "id": 17526,
@@ -127,7 +127,7 @@
     "query": "Graduate Trainee",
     "target_location": "Germany",
     "total_results": 10,
-    "latency_ms": 558.29,
+    "latency_ms": 809.65,
     "top_jobs": [
       {
         "id": 27195,
@@ -159,8 +159,8 @@
   "Q6": {
     "query": "Paid Internship",
     "target_location": "USA",
-    "total_results": 225,
-    "latency_ms": 195.49,
+    "total_results": 226,
+    "latency_ms": 346.78,
     "top_jobs": [
       {
         "id": 27191,
@@ -193,7 +193,7 @@
     "query": "Fresh Graduate Nurse",
     "target_location": "Canada",
     "total_results": 0,
-    "latency_ms": 73.74,
+    "latency_ms": 120.59,
     "top_jobs": [],
     "status": "ZERO_RESULTS_INVESTIGATE"
   },
@@ -201,7 +201,7 @@
     "query": "Entry-Level Marketing Associate",
     "target_location": "Australia",
     "total_results": 1,
-    "latency_ms": 64.4,
+    "latency_ms": 112.27,
     "top_jobs": [
       {
         "id": 6847,
@@ -218,7 +218,7 @@
     "query": "Apprenticeship",
     "target_location": "worldwide",
     "total_results": 1,
-    "latency_ms": 28.23,
+    "latency_ms": 48.21,
     "top_jobs": [
       {
         "id": 3701,
@@ -235,7 +235,7 @@
     "query": "No Experience Customer Support",
     "target_location": "India",
     "total_results": 13,
-    "latency_ms": 75.61,
+    "latency_ms": 178.68,
     "top_jobs": [
       {
         "id": 26674,
